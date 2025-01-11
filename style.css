@@ -1,0 +1,157 @@
+/* GENEL STİL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #84fab0, #8fd3f4);
+    color: #333;
+}
+
+/* BAŞLIKLAR */
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* KONTEYNER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ABOUT CONTENT */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.about-img {
+    flex: 1;
+    max-width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-img img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.about-text p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+}
+
+/* FOOTER */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+footer h2 {
+    margin: 0;
+    text-align: center;
+}
+
+footer .footer-copy {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer .footer-social ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-social ul li {
+    margin: 0 10px;
+}
+
+footer .footer-social ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.site-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.site-intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.site-intro strong {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Video Bölümü */
+.intro-video {
+    background: linear-gradient(120deg, #ffffff, #e3f2fd);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.intro-video h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.intro-video p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.video-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konferans APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <div class="about-title">
+                    <h2 style="color: rgb(0, 0, 0);">KONFERANS APP</h2>
+                    <h2 style="color: rgb(0, 0, 0);">Yeni Bir Dünyaya Hoş Geldiniz...</h2>
+                </div>
+
+                <div class="site-intro">
+                    <p>
+                        Hoş geldiniz! <strong>Konferans APP</strong>, etkinliklerinizi planlamak, yönetmek ve unutulmaz
+                        anılar
+                        biriktirmenizi kolaylaştıran modern bir platformdur. Kullanıcı dostu arayüzü, güçlü özellikleri
+                        ve hızlı erişimi sayesinde,
+                        konferanslardan özel organizasyonlara kadar her tür etkinliği en iyi şekilde yönetmenize olanak
+                        tanır.
+                    </p>
+                    <p>
+                        E-posta adresinizle kolayca kaydolun, etkinliklerinizi oluşturun ve diğer katılımcılarla
+                        etkileşim kurun.
+                        QR kod entegrasyonu ile etkinlik girişlerinizi güvenle yönetin. Bu platformda hem katılımcılar
+                        hem de organizatörler için
+                        harika bir deneyim sizi bekliyor! Hadi başlayın ve etkinlik dünyasına adım atın!
+                    </p>
+                </div>
+
+                <section class="intro-video">
+                    <div class="container">
+                        <h2>Platformumuzu Daha Yakından Tanıyın</h2>
+                        <p>Konferans APP ile etkinliklerinizi nasıl kolayca yönetebileceğinizi öğrenmek için kısa
+                            tanıtım videomuzu izleyin.</p>
+                        <div class="video-wrapper">
+                            <video controls poster="resimler/video-thumbnail.jpg">
+                                <source src="video/tanıtım-video.mp4" type="video/mp4">
+                                Tarayıcınız bu videoyu desteklemiyor. Videoyu izlemek için <a
+                                    href="video/tanitim-video.mp4">buraya tıklayın</a>.
+                            </video>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Register Ekranı -->
+                <div class="about-content">
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Yeni-Hesap-Oluşturma.jpg" alt="Register Sayfası">
+                        </a>
+                    </div>
+                    <div class="about-text">
+                        <h4>Register Ekranı</h4>
+                        <p>
+                            Merhaba, burası Register Ekranı. Firebase Auth ile e-posta doğrulama kullanılıyor:
+                            <br>- "İsim" = Kullanıcı adınız.
+                            <br>- "E-posta" = Mail adresiniz.
+                            <br>- "Şifre" = Şifreniz.
+                            <br><br>
+                            Google Auth entegrasyonu da eklenebilir; ancak test aşamalarında sorun yaşamamak için
+                            burada temel doğrulama seçilmiştir.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Login Ekranı -->
+                <div class="about-content">
+                    <div class="about-text">
+                        <h4>Login Ekranı</h4>
+                        <p>
+                            Kullanıcı adınızı ve şifrenizi girerek uygulamamıza giriş yapabilirsiniz. Büyülü dünyamıza
+                            hoş geldiniz!
+                            <br><br>
+                            * Not: Görüntüde bir hata olabilir; server kapalıyken çekilmiş bir ekran görüntüsü. :)
+                        </p>
+                    </div>
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Giriş-Ekranı.jpg" alt="Giriş Ekranı">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Etkinlikler Ekranı -->
+                <div class="about-content">
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Etkinlikler-Ekranı-.jpg" alt="Etkinlikler Ekranı">
+                        </a>
+                    </div>
+                    <div class="about-text">
+                        <h4>Etkinlikler Ekranı</h4>
+                        <p>
+                            İlgi alanlarınıza uygun etkinlikleri burada görüntüleyebilir ve filtreleyebilirsiniz.
+                            Yeni bir etkinlik oluşturmak için "+" simgesine tıklamanız yeterli. :)
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bilet Oluşturma Ekranı -->
+                <div class="about-content">
+                    <div class="about-text">
+                        <h4>Bilet Oluşturma Ekranı</h4>
+                        <p>
+                            Etkinlik oluşturduğunuzda, sistem otomatik olarak bir QR kod oluşturur. Profil ekranında
+                            bu QR kodu kullanarak katılımcıları içeri alabilir ve onaylayabilirsiniz.
+                        </p>
+                    </div>
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/yeni-etkinlik-oluşturma-ekranı.jpg" alt="Bilet Oluşturma Ekranı">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profil Ekranı -->
+                <div class="about-content">
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Profil-Ekranı.jpg" alt="Profil Ekranı">
+                        </a>
+                    </div>
+                    <div class="about-text">
+                        <h4>Profil Ekranı</h4>
+                        <p>
+                            Profil bilgilerinizi görüntüleyebilir, düzenleyebilir ve oluşturduğunuz etkinliklerinizi
+                            buradan yönetebilirsiniz.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Profil Düzenleme Ekranı -->
+                <div class="about-content">
+                    <div class="about-text">
+                        <h4>Profil Düzenleme Ekranı</h4>
+                        <p>
+                            Dünyamızdaki profilinizi değiştirmek mi istiyorsunuz? İşte buradan yapabilirsiniz!
+                            <br>* Not: Göz renginizin kayıtlı olduğundan emin olun. :)
+                        </p>
+                    </div>
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Profil-Düzeni-Ekranı.jpg" alt="Profil Düzenleme Ekranı">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- QR Okuma -->
+                <div class="about-content">
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Etkinlik-Girişi-İçin-QR-Okutma-Ektanı.jpg" alt="QR Okuma Ekranı">
+                        </a>
+                    </div>
+                    <div class="about-text">
+                        <h4>QR Kod ile Etkinlik Giriş</h4>
+                        <p>
+                            QR kod ile etkinliklerinize giriş yapın. Katılımcıları kontrol etmek için QR kodu okutmanız
+                            yeterli!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alınan Biletler -->
+                <div class="about-content">
+                    <div class="about-text">
+                        <h4>Alınan Biletler</h4>
+                        <p>
+                            Aldığınız biletleri burada görüntüleyebilirsiniz. QR kodu göstererek etkinliklere kolayca
+                            giriş yapabilirsiniz.
+                        </p>
+                    </div>
+                    <div class="about-img">
+                        <a href="#">
+                            <img src="resimler/Alınan-Biletlerin-QR-ekranı.jpg" alt="Biletler Ekranı">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-content">
+                <div class="page-title">
+                    <h2>KONFERANS APP</h2>
+                </div>
+                <div class="footer-copy">
+                    <p>Powered By. isimsizacemi &copy; 2025</p>
+                </div>
+                <nav class="footer-social">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/isimsizacemi/">
+                                <img src="resimler/iconlar/instagram-icon.png" alt="Instagram">
+                            </a>
+                            <a href="https://twitter.com/isimsizacemi_">
+                                <img src="resimler/iconlar/twitter-icon.png" alt="Twitter">
+                            </a>
+                            <a href="https://www.linkedin.com/in/abdurrahman-özkan-155a58228/">
+                                <img src="resimler/iconlar/linkedin-icon.png" alt="LinkedIn">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const scrollElements = document.querySelectorAll('.about-content');
+
+        const elementInView = (el, offset = 150) => {
+            const elementTop = el.getBoundingClientRect().top;
+            return (
+                elementTop <= (window.innerHeight || document.documentElement.clientHeight) - offset
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add('show');
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 150)) {
+                    displayScrollElement(el);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', () => {
+            handleScrollAnimation();
+        });
+    </script>
+</body>
+
+
+</html>
